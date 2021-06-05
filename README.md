@@ -1,2 +1,2 @@
 # postgres_rce
-Postre SQL RCE and Reverse Shell
+Postgre SQL RCE and Reverse Shell
