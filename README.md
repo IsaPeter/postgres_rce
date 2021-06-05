@@ -6,6 +6,23 @@ Tested on PostgreSQL DB 9.6.0
 ```bash
 $ sudo apt-get install python3-psycopg2
 ```
+**Help**
+
+```
+usage: psqlexp.py [-h] [-T TARGET] [-p PORT] [-U USERNAME] [-P PASSWORD]
+                  [--lhost LHOST] [--lport LPORT] [--cmd] [--os-shell]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -T, --target   	The target host
+  -p, --port  		The target port
+  -U, --username	The application Username
+  -P, --password        The password fo the user
+  --lhost               Local host to connect back
+  --lport               Local port to connect back
+  --cmd                 Command execution on target
+  --os-shell            Get reverse shell from the target
+```
 
 ## Usage
 **Run command on target**
